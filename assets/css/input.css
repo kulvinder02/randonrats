@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Press;
+    src: url(../fonts/Press_Start_2P/PressStart2P-Regular.ttf);
+}
+
+@font-face {
+    font-family: IBM;
+    src: url(/assets/fonts/Press_Start_2P/IBMPlexMono-Bold.ttf);
+}
+/* *{
+    border: 1px solid white;
+} */
+
+.svg-hover{
+    cursor: pointer;
+}
+.svg-hover:hover circle{
+    fill: yellow;
+}
+.svg-hover:hover path{
+    fill: black;
+}
